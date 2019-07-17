@@ -1,0 +1,264 @@
+/* all */
+body {
+    display: flex;
+    line-height: 1.3rem;
+    font-family: "Helvetica Neue";
+}
+
+/* sidebar */
+
+header .headerimg{
+    max-width: 100%;
+    margin-top: 1rem; 
+}
+
+.sidebar {
+    width: 12%;
+    font-size: 0.8rem;
+    padding: 0 1rem;
+}
+
+.sidebar .sidebar_container {
+    margin-top: 4.5rem;
+}
+
+.sitemap p{
+    margin: 0;
+}
+
+hr {
+    border: 0.5px solid black;
+    margin: 0.1rem 0 0.5rem 0;
+}
+
+.interaction p {
+    margin: 0;
+}
+
+.interaction h4{
+    margin-bottom: 0;
+}
+
+.tools p {
+    margin: 0;
+}
+
+.tools h4{
+    margin-bottom: 0;
+}
+
+.other_projects p {
+    margin: 0;
+}
+
+.other_projects h4{
+    margin-bottom: 0;
+}
+
+.Print_export p {
+    margin: 0;
+}
+
+.Print_export h4{
+    margin-bottom: 0;
+}
+
+h4 span {
+    padding-left: 52%;
+}
+
+.Languages p {
+    margin: 0;
+}
+
+.Languages h4{
+    margin-bottom: 0;
+}
+
+/* main */
+.biggest {
+    width: 88%;
+}
+
+/* .biggest div {
+    margin: 0 2%;
+} */
+
+.bigger .main {
+    background-color: lightgray;
+}
+
+.main .main_2 {
+    padding: 2%;
+    background-color: lightgray;
+}
+
+/* navbar 　　検索ボタンに画像の埋め込み方法？*/
+.biggest .navbar {
+    padding: 0 2% 0 0;
+    height: 6rem;
+    font-size: 0.8rem;
+}
+
+.navbar .navbartop {
+    display: block;
+    width: 50%;
+    text-align: right;
+    margin: 1rem 0 0 50%;
+}
+
+.navbartop span {
+    padding-left: 0.75rem;
+}
+
+.navbartop i {
+    padding: 0.3rem;
+}
+
+.navbar .navbarbottom {
+    justify-content: space-between;
+    display: flex;
+    margin: 3.2rem 0 0 0;
+}
+
+.navbarbottom_left span{
+    padding-right: 0.75rem;    
+}
+
+.navbarbottom .navbarbottom_right {
+    display: flex;
+}
+
+.navbarbottom_right span, form {
+    padding-left: 0.75rem;
+}
+
+.form input[type="text"]:focus {
+    outline: 1px solid blue;
+}
+
+/* main container */
+/* page's namekk */
+.pagename h3 {
+    font-family: "Comic San MS";
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.main_2 .brief {
+    text-align: center;
+    margin: 2% 0;
+} 
+
+.brief .brief_box {
+    margin: 0 10%;
+    border: 1px solid black;
+    border-left: 10px solid orange;
+}
+
+.brief_box .brief_box_container {
+    display: flex;
+}
+
+.brief_box img {
+    padding: 2%;
+    max-width: 10%; /*この10%より小さくすると、縦長になる。さらに小さくしたい場合、どうすればいい？*/
+}
+.brief_p p {
+    margin: 1.5%;
+    text-align: left;
+}
+
+/* table */
+
+.main_2 .table {
+    float: right;
+    width: 25%;
+    background-color: lightcyan;
+    border: 1px solid black;
+    font-size: 0.8rem;
+    padding: 3px;
+}
+
+
+.table .table_title {
+    background-color: antiquewhite;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.table .main_title {
+    font-style: italic;
+    font-size: 1rem;
+    background-color: antiquewhite;    
+    text-align: center;
+}
+
+
+td img {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+tr td {
+    vertical-align: text-top;
+}
+
+tr th {
+    text-align: left;
+    vertical-align: text-top;
+}
+
+tr .table_left {
+    width: 15%;
+}
+
+.list ul {
+    list-style: none;
+    padding: 0
+}
+
+
+/* content map     contentmap内の目次を左寄せにするにはどうすればいい？paddingを消して左に寄せるとリストの形式が消える。*/ 
+.content_map {
+    border: 1px solid black;
+    width: 35%;
+    padding: 3px;
+    background-color: aqua;
+}
+
+ul li {
+    list-style: none;
+}
+
+li {
+    font-size: 0.8rem;
+}
+
+.numbering {
+    padding-right: 0.75rem;
+}
+
+.content_map .index {
+    display: block;
+    margin: auto auto;
+}
+
+.index {
+    padding-left: 0;
+}
+
+.index h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.ellen_portrait img{
+    float: right;
+    padding: 3px;
+    border: 1px solid  black;
+}
