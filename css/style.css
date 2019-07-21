@@ -94,6 +94,10 @@ h4 span {
 }
 
 /* navbar 　　検索ボタンに画像の埋め込み方法？*/
+.form img {
+    max-width: 10px;
+}
+
 .biggest .navbar {
     padding: 0 2% 0 0;
     height: 6rem;
@@ -164,7 +168,7 @@ h4 span {
 
 .brief_box img {
     padding: 2%;
-    max-width: 10%; /*この10%より小さくすると、縦長になる。さらに小さくしたい場合、どうすればいい？*/
+    max-width: 5%; /*この10%より小さくすると、縦長になる。さらに小さくしたい場合、どうすればいい？*/
 }
 .brief_p p {
     margin: 1.5%;
@@ -225,9 +229,14 @@ tr .table_left {
 /* content map     contentmap内の目次を左寄せにするにはどうすればいい？paddingを消して左に寄せるとリストの形式が消える。*/ 
 .content_map {
     border: 1px solid black;
-    width: 35%;
-    padding: 3px;
+    /* width: 35%; */
+    padding: 20px;
     background-color: aqua;
+    display: inline-block;
+}
+
+.padding {
+    padding-inline-start: 0;
 }
 
 ul li {
